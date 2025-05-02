@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sex{i}Anuncios</title>
+
+    <link rel="icon" href="img/imgsexd.png">
+
+    <!--========================================================================
+                                PLUGINS DE CSS
+======================================================================== -->
+
+    <!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+
+    <!-- JdSlider -->
+    <link rel="stylesheet" type="text/css" href="css/plugins/jquery.jdSlider.css">
+
+
+    <!--=========================================================================
+                                    PLUGINS DE JS
+    ========================================================================= -->
+
+    <!-- jQuery library -->
+    <!--<script src="js/jquery.slim.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+
+    <!-- Popper JS -->
+    <!--<script src="js/popper.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+
+    <!-- Latest compiled JavaScript -->
+    <!--<script src="js/bootstrap.bundle.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+    <!-- JdSlider -->
+    <!-- https ://www.jqueryscript.net/slider/carousel-slidershow-jdslider -->
+    <script src="js/plugins/jquery.jdSlider-latest.js"></script>
+
+    <!-- Scrolorama -->
+    <script src="js/plugins/jquery.superscrollorama.js"></script>
+    <script src="js/plugins/TweenMax.min.js"></script>
+
+
+    <!-- Pagination -->
+    <!-- https://josecebe.github.io/twbs-pagination -->
+    <script src="js/plugins/pagination.min.js"></script>
+
+</head>
+
+<body>
+
+    <!--============================================================================
+                                      PRELOAD
+    =============================================================================-->
+
+    <div id="preload">
+
+        <div id="porcentajeCarga">0%</div>
+
+        <div id="lineaCarga">
+
+            <di id="rellenoCarga"></di>
+
+        </div>
+
+        <di id="estadoCarga"></di>
+
+    </div>
+
+    <!--============================================================================
+                                      CABECERA
+    =============================================================================-->
+
+    <header class="container-fluid ">
+
+        <div class="">
+
+            <div class="row">
+
+                <div class="col-10 col-sm-11 col-md-3  col-lg-3 pt-lg-1 col-xl-4 pt-xl-0">
+
+                    <ul class="col-1 ulPerfil">
+                        <li>
+
+                        </li>
+
+                        <li class="">
+                            <a href="index.html" class="nombrelogo">
+                                <h2 class="h2I">Sex{i}Anuncios</h2>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <!--============================================================================
+                                              BARRA  DE NAVEGACION
+                =============================================================================-->
+
+                <div class="d-none d-md-block col-md-8 col-lg-8 col-xl-7  pt-xl-2 nav  ">
+
+                    <nav class="navbar navbar-expand-sm ml-5 text-md-right d-flex justify-content-end ">
+
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item mr-2 lead">
+
+                            </li>
+
+                            <li class="nav-item mr-2 lead">
+
+                            </li>
+
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+                <!-- ===========================================================================
+                                              BUSCADOR Y MENÚ
+                =============================================================================-->
+
+                <div class="col-2 col-sm-1 col-md-1 col-lg-1 pt-2 col-xl-1 pt-xl-3 mt-1 text-md-center d-flex justify-content-end ">
+
+                    <!-- BUSCADOR -->
+                    <div class="d-none d-md-block pr-5 pr-md-4 pr-lg-5 ">
+
+                        <i class="" data-toggle="collapse" data-target="#buscador"></i>
+
+                    </div>
+
+                    <!-- BOTON MENÚ -->
+                    <div class="d-xl-none d-lg-none d-md-none mb-3 mb-md-0 pr-2 pr-lg-3 " onclick="myFunction()">
+
+                        <i class="fa fa-bars lead"></i>
+
+                    </div>
+
+                </div>
+
+                <!-- ENTRADA DEL BUSCADOR -->
+                <div id="buscador" class="collapse col-12">
+
+                    <div class="input-group float-right ">
+
+                        <input type="text" class="form-control" placeholder="Buscar">
+
+                        <div class="input-group-append">
+
+                            <span class="input-group-text">
+
+                                <i class="fa fa-search n2"></i>
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- ===========================================================================
+                                 MENÚ DE NAVEGACION MÓVIL
+                =============================================================================-->
+
+                <div class="d-xl-none d-lg-none  d-md-none nav">
+
+                    <div id="myLinks">
+
+                        <a href="mujeres.html" target="_blank">Mujeres</a>
+
+                        <a href="hombres.html" target="_blank">Hombres</a>
+
+                        <a href="lesbianas.html" target="_blank">Lesbianas</a>
+
+                        <a href="gays.html" target="_blank">Gays</a>
+
+                        <a href="masajes.html" target="_blank">Masajes</a>
+
+                        <a href="agencia.html" target="_blank">Agencia</a>
+
+                        <a href="sado.html" target="_blank">Sado</a>
+
+                        <a href="scorts.html" target="_blank">Scorts</a>
+
+                        <a href="trans.html" target="_blank">Transexuales</a>
+
+                        <a href="habitaciones.html" target="_blank">Habitaciones</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- ===========================================================================
+                                FORMULARIO DE LOGUIN
+    =============================================================================-->
+
+    <div class="container-loguin">
+        <div class="actions">
+            <h2 class="h2l">
+                Loguin.
+            </h2>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <form>
+                    <div class="col-10">
+                        <label for="inputEmail" class="form-label"></label>
+                        <input type="text2" class="form-control" placeholder="Email" id="input-email"></input>
+                    </div>
+                    <div class="col-10">
+                        <label for="inputPassword" class="form-label"></label>
+                        <input type="text2" class="form-control" placeholder="Password" id="input-Password"></input>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ===========================================================================
+                            REDES SOCIALES PARA MÓVIL
+    =============================================================================-->
+
+    <div class=" d-xl-none d-lg-none d-md-none redes redesMovil p-0   pt-2 ">
+
+        <ul class="d-flex justify-content mt-2 ulCategoria">
+
+            <li>
+
+                <a href="login.html">
+
+                    <i class="fas fa-user lead rounded-circle "></i>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="">
+
+                    <i class="fas fa-file-signature lead rounded-circle "></i>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="formulario.html">
+
+                    <i class="fas fa-bullhorn lead rounded-circle "></i>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="">
+
+                    <i class="fas fa-sliders-h lead rounded-circle"></i>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="">
+
+                    <i class="fas fa-map-marker-alt lead rounded-circle "></i>
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+    <!-- ===========================================================================
+                                       FOOTER
+    =============================================================================-->
+    <footer class="footer  d-none d-md-block">
+
+        <div class="container d-md-none d-md-block">
+
+            <ul class="copyright d-none d-md-block">
+
+                <ul class="d-none d-md-block icons">
+
+                    <li>
+
+                        <a class="d-none d-md-block icon" href="#">
+
+                            <span class="">
+
+                                Cómo Funciona
+
+                            </span>
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a class="d-none d-md-block icon" href="#">
+
+                            <span class="">
+
+                                Quienes Somos
+
+                            </span>
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a class="d-none d-md-block icon" href="#">
+
+                            <span class="">
+
+                                Nuestros Valores
+
+                            </span>
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a class="d-none d-md-block icon" href="#">
+
+                            <span class="">
+
+                                Últimas Noticias 
+
+                            </span>
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a class="d-none d-md-block icon" href="#">
+
+                            <span class="">
+
+                                Nuestro Blog
+
+                            </span>
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </ul>
+
+            <li class="d-none d-md-block">Design: <a href="http://sex.co">NGR</a></li>
+
+            <li class="d-none d-md-block copi">&copy; Derechos Reservados</li>
+
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

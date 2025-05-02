@@ -1,0 +1,1752 @@
+     @charset "UTF-8";
+     @import url(font-awesome.min.css);
+     @import url("http://fonts.googleapis.com/css?family=Roboto:500,300");
+     /*=================================================
+     = Escritorio (XL revisamos en 1366px en adelante) =
+     ==================================================*/
+     /*=================================================
+     =                     HEADER                      =
+     ==================================================*/
+     
+     header {
+         position: fixed;
+         top: 0;
+         left: 0;
+         z-index: 5;
+         background: rgba(0, 0, 0, .5);
+         border-top: 0.5px solid black;
+     }
+     
+     header .nombrelogo {
+         font-family: 'Times New Roman', Times, serif;
+         color: #FCACAC;
+     }
+     
+     .boxPerfil {
+         padding: 0%;
+     }
+     
+     header .nombrelogo .h2Perfil {
+         font-family: 'Times New Roman', Times, serif;
+         padding-top: 4px;
+         text-align: center;
+         font-size: 40px;
+         margin-right: 18.5%;
+     }
+     
+     .h2I {
+         margin-top: 19px;
+     }
+     
+     .ulPerfil {
+         font-size: 40px;
+         color: #FCACAC;
+         list-style: none;
+     }
+     
+     .ulPerfil a {
+         color: #FCACAC;
+         cursor: pointer;
+         padding-top: -8px;
+         margin-top: 8px;
+     }
+     
+     header .nav ul li button {
+         font-family: 'Times New Roman', Times, serif;
+         background: url(../img/bg.jpg);
+         color: #FCACAC;
+         font-size: 28px;
+         margin-top: 0px;
+         margin-bottom: 10px;
+     }
+     
+     .btn:hover {
+         color: #629DD1;
+     }
+     
+     .fa-bars {
+         font-size: 25px;
+         color: #FCACAC;
+     }
+     
+     .fa-search {
+         font-size: 30px;
+         color: #FCACAC;
+         margin-right: 15px;
+         padding-top: 9px;
+         cursor: pointer;
+     }
+     
+     .textoBanner .fa-sliders {
+         font-size: 25px;
+         color: #FCACAC;
+     }
+     
+     .n2 {
+         font-size: 20px;
+     }
+     
+     .input-group {
+         width: 37.2%;
+     }
+     
+     .navMovil ul li button {
+         cursor: pointer;
+         color: #fff;
+         background: #FCACAC;
+         font-size: 75%;
+         z-index: 10;
+         transform: translate(-50px, 0%);
+         width: 90px;
+         height: 55px;
+     }
+     /*=================================================
+     =                     BANNER                      =
+     ==================================================*/
+     
+     .fade-slider {
+         position: fixed;
+         z-index: -1;
+         top: 0;
+         left: 0;
+         border-bottom: solid 0.5px #FCACAC;
+     }
+     
+     .fade-slider .b1 {
+         height: 570px;
+     }
+     
+     .fade-slider .b2 {
+         height: 570px;
+     }
+     
+     .fade-slider .b3 {
+         height: 570px;
+     }
+     
+     .fade-slider .b4 {
+         height: 570px;
+     }
+     
+     .fade-slider .b5 {
+         height: 570px;
+     }
+     
+     .fade-slider .b6 {
+         height: 490px;
+     }
+     
+     .fade-slider .b7 {
+         height: 390px;
+     }
+     
+     .textoBanner {
+         position: absolute;
+         width: 50%;
+         text-align: center;
+         z-index: 1;
+         top: 56%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         color: #FCACAC;
+     }
+     
+     .textoBanner h1 {
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 100px;
+     }
+     
+     .textoBanner h5 {
+         font-family: 'Times New Roman', Times, serif;
+         line-height: 30px;
+         font-weight: 100;
+         font-size: 28px;
+     }
+     
+     .boxBanner {
+         margin-left: 111em;
+         z-index: 1;
+         margin-top: -90px;
+         padding-bottom: 10px;
+     }
+     
+     .iconBann {
+         font-size: 65px;
+         color: #FCACAC;
+         margin-left: 15px;
+     }
+     
+     .imgBannerP {
+         position: absolute;
+         width: 13%;
+         padding-top: 93px;
+         margin-left: 350px;
+     }
+     
+     .imgnp {
+         width: 300px;
+         border-radius: 150px;
+     }
+     
+     .boxBannerp {
+         margin-left: 90em;
+         z-index: 1;
+         margin-top: -80px;
+         padding-bottom: 10px;
+     }
+     
+     .iconBannP {
+         font-size: 65px;
+         color: #FCACAC;
+         margin-left: 15px;
+         padding-bottom: 25px;
+     }
+     /*=================================================
+     =               GRID DE CATEGORIAS                =
+     ==================================================*/
+     
+     .grid {
+         background: rgba(0, 0, 0, .9);
+         padding-top: 4em;
+         padding-bottom: 3em;
+     }
+     
+     .grid section {
+         background: url(../img/bg.jpg);
+         border: 1px solid z;
+         border-radius: 5px;
+         margin-bottom: 30px;
+         border: 0.5px solid #FCACAC;
+         cursor: pointer;
+     }
+     
+     .grid .boxcol {
+         margin-left: 150px;
+     }
+     
+     .grid section p {
+         font-family: 'Times New Roman', Times, serif;
+         color: #629DD1;
+         text-align: center;
+         font-size: 28px;
+         padding-top: 7px;
+         margin-top: 10px;
+     }
+     
+     .grid .column1 .box1 {
+         width: 80%;
+     }
+     
+     .grid .column2 .box2 {
+         width: 80%;
+     }
+     /*=================================================
+     =                    PERFIL                       =
+     ==================================================*/
+     
+     .contPerfil {
+         background: url(../img/img03.jpg);
+     }
+     
+     .imgPer {
+         width: 20%;
+     }
+     
+     .photoPerfil {
+         width: 100%;
+     }
+     
+     .anuncioPerfil {
+         padding-top: 15px;
+     }
+     
+     .h2Perfil {
+         text-align: center;
+         color: #FCACAC;
+     }
+     
+     .textAnuncioPerfil {
+         font-size: 19px;
+     }
+     
+     .servicios ul {
+         padding: 19px;
+         text-align: center;
+     }
+     
+     .servicios .box {
+         background: rgb(227, 223, 223);
+         list-style: none;
+         display: inline-block;
+         padding: 5px 5px;
+         font-size: 20px;
+         text-align: center;
+         margin-bottom: 10px;
+     }
+     /*=================================================
+     =               CONTENIDO ANUNCIOS                =
+     ==================================================*/
+     
+     .contAnuncio {
+         background: url(../img/img03.jpg);
+     }
+     
+     .container-anuncios {
+         width: 80.8%;
+         margin-left: 10.2%;
+         margin-top: 60px;
+         padding-bottom: 25px;
+     }
+     
+     .imgn {
+         width: 100%;
+         height: 330px;
+         margin-top: 13px;
+     }
+     
+     .introAviso {
+         position: relative;
+     }
+     
+     .fecha {
+         position: absolute;
+         right: 60px;
+         top: 10px;
+         font-size: 25px;
+         color: #1475E0;
+     }
+     
+     .textoAnuncio {
+         font-size: 22px;
+         margin-top: 35px;
+     }
+     
+     .leerMas {
+         font-size: 25px;
+         margin-top: 150px;
+     }
+     
+     .h2Canuncios {
+         padding-left: 22px;
+         color: #1475E0;
+         margin-top: 15px;
+     }
+     
+     .pagination {
+         margin-top: 65px;
+         margin-left: 36px;
+     }
+     
+     .page-item.active .page-link {
+         background: #FCACAC;
+         border: solid 1px #FCACAC;
+     }
+     /*=================================================
+     =                 REDES MÓVIL                     =
+     ==================================================*/
+     
+     .redes ul li i {
+         width: 38px;
+         line-height: 38px;
+         text-align: center;
+         cursor: pointer;
+     }
+     
+     .redes ul li i.fa-facebook-f {
+         background: #1475E0;
+     }
+     
+     .redes ul li i.fa-instagram {
+         background: #B18768;
+     }
+     
+     .redes ul li i.fa-twitter {
+         background: #00A6FF;
+     }
+     
+     .redes ul li i.fa-youtube {
+         background: #F95F62;
+     }
+     
+     .redes ul li i.fa-snapchat {
+         background: #FF9052;
+     }
+     
+     .fa-bars {
+         font-size: 35px;
+     }
+     
+     .fa-search,
+     .fa-bars {
+         color: hite;
+     }
+     
+     .redesMovil {
+         background: url(../img/bg.jpg);
+         width: 100%;
+         position: fixed;
+         bottom: 0px;
+         left: 8.7%;
+         z-index: 8;
+         transform: translate(-50px, 0%);
+     }
+     
+     .redesMovil ul {
+         margin-left: 425px;
+     }
+     
+     .redesMovil i {
+         background: url(../img/bg.jpg);
+         color: #FCACAC;
+         font-size: 25px;
+         margin-left: 10px;
+     }
+     /*=================================================
+     =                     FOOTER                      =
+     ==================================================*/
+     
+     .footer {
+         padding: 2em 0 6em 0;
+         background: url(../img/bg.jpg);
+         color: #FCACAC;
+         text-align: center;
+     }
+     
+     .footer a {
+         -moz-transition: color 0.2s ease-in-out;
+         -webkit-transition: color 0.2s ease-in-out;
+         -o-transition: color 0.2s ease-in-out;
+         -ms-transition: color 0.2s ease-in-out;
+         transition: color 0.2s ease-in-out;
+         color: #FCACAC;
+         text-decoration: none;
+     }
+     
+     .footer a:active,
+     .footer a:hover {
+         color: #629DD1;
+     }
+     
+     .footer .copyright {
+         margin: 2em 0;
+         padding: 0;
+         text-align: center;
+     }
+     
+     
+     
+     .footer .copyright li:first-child {
+         border-left: 0;
+         margin-left: 0;
+         padding-left: 0;
+     }
+     
+     .footer .icon {
+         font-size: 1.5em;
+     }
+     
+     .copi {
+         color: #FCACAC;
+     }
+     /*=================================================
+     =                     PRELOAD                     =
+     ==================================================*/
+     
+     #preload {
+         position: fixed;
+         z-index: 1000;
+         width: 100%;
+         height: 100%;
+         background: #333;
+     }
+     
+     #porcentajeCarga {
+         position: absolute;
+         text-align: center;
+         width: 100%;
+         color: #FCACAC;
+         top: 50%;
+         font-size: 20px;
+         font-weight: 100;
+     }
+     
+     #lineaCarga {
+         position: absolute;
+         width: 100%;
+         height: 2px;
+         top: 50%;
+         left: 0%;
+         background: #629DD1;
+     }
+     
+     #rellenoCarga {
+         position: absolute;
+         top: 0;
+         left: 0;
+         height: 2px;
+         width: 0%;
+         background: #FCACAC;
+     }
+     
+     #estadoCarga {
+         position: absolute;
+         background: url(../img/loader.gif);
+         background-position: center;
+         top: 45%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         width: 200px;
+         height: 200px;
+     }
+     /*=================================================
+     = Tablet Horizontal (LG  revisamos en 1024px)     =
+     ==================================================*/
+     
+     @media (max-width:1199px) and (min-width:992px) {
+         .ulPerfil a {
+             margin-bottom: 0px;
+             margin-left: -3px;
+             font-size: 30;
+         }
+         .h2I {
+             font-family: 'Times New Roman', Times, serif;
+             margin-top: -48px;
+             margin-left: 26px;
+             font-size: 38px;
+         }
+         .actions .h2t {
+             font-size: 3em !important;
+             margin-left: 258px;
+             display: inline-block;
+             font-family: 'Times New Roman', Times, serif;
+         }
+         header .nombrelogo .h2Perfil {
+             font-family: 'Times New Roman', Times, serif;
+             padding-top: 4px;
+             text-align: center;
+             font-size: 43px;
+             margin-right: 18.5%;
+         }
+         header .nav ul li button {
+             font-family: 'Times New Roman', Times, serif;
+             background: url(../img/bg.jpg);
+             color: #FCACAC;
+             font-size: 20px;
+             margin-top: 10px;
+             margin-bottom: 10px;
+         }
+         .fa-search {
+             font-size: 30px;
+             color: #FCACAC;
+             padding-top: 15px;
+             margin-right: 2px;
+         }
+         .n2 {
+             font-size: 20px;
+         }
+         .input-group {
+             width: 54.1%;
+         }
+         .fade-slider .b1 {
+             height: 320px;
+         }
+         .fade-slider .b2 {
+             height: 320px;
+         }
+         .fade-slider .b3 {
+             height: 320px;
+         }
+         .fade-slider .b4 {
+             height: 320px;
+         }
+         .fade-slider .b5 {
+             height: 320px;
+         }
+         .fade-slider .b6 {
+             height: 320px;
+         }
+         .fade-slider .b7 {
+             height: 400px;
+         }
+         .textoBanner h1 {
+             font-family: 'Times New Roman', Times, serif;
+             font-size: 75px;
+         }
+         .textoBanner h5 {
+             font-family: 'Times New Roman', Times, serif;
+             line-height: 20px;
+             font-weight: 100;
+             font-size: 25px;
+         }
+         .boxBanner {
+             margin-left: 57em;
+             z-index: 1;
+             margin-top: -100px;
+         }
+         .iconBann {
+             font-size: 50px;
+             color: #FCACAC;
+             margin-left: 15px;
+         }
+         .boxBannerp {
+             margin-left: 52em;
+             z-index: 1;
+             margin-top: -104px;
+         }
+         .iconBannP {
+             font-size: 50px;
+             color: #FCACAC;
+             margin-left: 15px;
+         }
+         /*PERFIL*/
+         .imgBannerP {
+             margin-left: 200px;
+             padding-top: 93px;
+             width: 22.5%;
+         }
+         .perfilColumna1 .per-1 .imgPer {
+             border-radius: 6%;
+         }
+         /* GRID*/
+         .grid .boxcol {
+             margin-left: 50px;
+         }
+         .grid .column1 .box1 {
+             width: 89%;
+         }
+         .grid .column2 .box2 {
+             width: 89%;
+         }
+         .container-anuncios {
+             width: 88.5%;
+             margin-left: 6.5%;
+             margin-top: 50px;
+             padding-bottom: 25px;
+         }
+         .imgn {
+             width: 100%;
+             height: 220px;
+         }
+         .introAviso {
+             position: relative;
+         }
+         .fecha {
+             position: absolute;
+             right: 30px;
+             top: 12px;
+             font-size: 18px;
+         }
+         .textoAnuncio {
+             font-size: 18px;
+         }
+         .leerMas {
+             font-size: 20px;
+             margin-top: 35px;
+             margin-right: -30px;
+         }
+         /* FORMULARIO */
+         .container-formulario {
+             margin-top: 8px !important;
+         }
+         input[type="text1"],
+         input[type="password"],
+         input[type="email"],
+         select {
+             height: 2.75em;
+             margin-top: 1em;
+             margin-left: 4.1em !important;
+             appearance: none;
+             background: rgba(144, 144, 144, 0.075);
+             border-radius: 6px;
+             border: none;
+             border: solid 1px rgba(144, 144, 144, 0.25);
+             color: #629DD1;
+             display: block;
+             outline: 0;
+             padding: 0 0.5em;
+             text-decoration: none;
+             width: 100%;
+             height: 3em;
+         }
+         textarea {
+             padding: 0.75em 1em;
+             margin-top: 1em;
+             margin-left: 5em !important;
+         }
+         input[type="text1"],
+         input[type="password"],
+         input[type="email"],
+         select,
+         textarea {
+             width: 100% !important;
+         }
+         .select-wrapper:before {
+             width: 0.75em !important;
+         }
+         .actions {
+             margin-left: 193px !important;
+         }
+         .actions .h2t {
+             margin-left: 163px !important;
+         }
+         .actions .h2f {
+             margin-left: 150px !important;
+         }
+         input[type="checkbox"]+label,
+         input[type="radio"]+label {
+             padding-left: 4.5em !important;
+             margin-left: 8.8em !important;
+         }
+         input[type="submit"].special,
+         input[type="reset"].special,
+         input[type="button"].special,
+         .button.special {
+             margin-left: 84px !important;
+         }
+     }
+     /*=================================================
+     = Tablet Vertical (MD revisamos en 768px)         =
+     ==================================================*/
+     
+     @media (max-width:991px) and (min-width:768px) {
+         header {
+             background: rgba(0, 0, 0, .9);
+         }
+         .ulPerfil {
+             margin-bottom: 0px;
+             margin-left: -3px;
+             padding-top: 1px;
+         }
+         header .nav ul li .btn {
+             cursor: pointer;
+             color: #FCACAC;
+             background: url(../img/bg.jpg);
+             font-size: 13px;
+             margin-top: 10px;
+         }
+         .nombrelogo .h2I {
+             font-family: 'Times New Roman', Times, serif;
+             margin-left: 14px;
+             margin-top: 13px;
+             font-size: 32px;
+         }
+         .h2P {
+             font-family: 'Times New Roman', Times, serif;
+             margin-top: -47px;
+             margin-left: 46px;
+             font-size: 30px;
+         }
+         .btn:active,
+         .btn:hover {
+             color: #629DD1;
+         }
+         .input-group {
+             width: 56.3%;
+         }
+         .fa-search {
+             font-size: 30px;
+             color: #FCACAC;
+             padding-top: 7px;
+             margin-right: 2px;
+         }
+         .n2 {
+             font-size: 20px;
+         }
+         .fade-slider .b1 {
+             height: 220px;
+         }
+         .fade-slider .b2 {
+             height: 220px;
+         }
+         .fade-slider .b3 {
+             height: 220px;
+         }
+         .fade-slider .b4 {
+             height: 220px;
+         }
+         .fade-slider .b5 {
+             height: 220px;
+         }
+         .fade-slider .b6 {
+             height: 270px;
+         }
+         .fade-slider .b7 {
+             height: 376px;
+         }
+         .textoBanner h1 {
+             font-family: 'Times New Roman', Times, serif;
+             font-size: 55px;
+         }
+         .textoBanner h5 {
+             font-family: 'Times New Roman', Times, serif;
+             line-height: 20px;
+             font-weight: 50;
+             font-size: 22px
+         }
+         .boxBanner {
+             margin-left: 41.5em;
+             z-index: 1;
+             margin-top: -100px;
+         }
+         .iconBann {
+             font-size: 50px;
+             color: #FCACAC;
+             margin-left: 15px;
+         }
+         .boxBannerp {
+             margin-left: 37em;
+             z-index: 1;
+             margin-top: -104px;
+         }
+         .iconBannP {
+             font-size: 50px;
+             color: #FCACAC;
+             margin-left: 15px;
+         }
+         /*PERFIL*/
+         .imgBannerP {
+             margin-left: 156px;
+             padding-top: 77px;
+             width: 29%;
+         }
+         /*GRID*/
+         .grid .boxcol {
+             margin-left: 50px;
+         }
+         .grid .column1 .box1 {
+             width: 89%;
+         }
+         .grid .column2 .box2 {
+             width: 89%;
+         }
+         .introAviso {
+             position: relative;
+         }
+         .container-anuncios {
+             width: 88.5%;
+             margin-left: 6.5%;
+             margin-top: 40px;
+             padding-bottom: 25px;
+         }
+         .imgn {
+             width: 90%;
+             height: 500px;
+             margin-left: 34px;
+         }
+         .fecha {
+             position: absolute;
+             right: 10px;
+             top: 0px;
+             font-size: 20px;
+         }
+         .textoAnuncio {
+             font-size: 18px;
+             padding-top: 15px;
+             color: #010a12;
+             padding-right: 5px;
+         }
+         .leerMas {
+             font-size: 20px;
+             margin-top: 15px;
+         }
+         .h4 {
+             padding-left: 22px;
+             color: #1475E0;
+         }
+         /* FORMULARIO */
+         .container-formulario {
+             margin-top: 7px !important;
+         }
+         input[type="text1"],
+         input[type="password"],
+         input[type="email"],
+         select {
+             height: 2.75em;
+             margin-top: 1em;
+             margin-left: 3.1em !important;
+             appearance: none;
+             background: rgba(144, 144, 144, 0.075);
+             border-radius: 6px;
+             border: none;
+             border: solid 1px rgba(144, 144, 144, 0.25);
+             color: #629DD1;
+             display: block;
+             outline: 0;
+             padding: 0 0.5em;
+             text-decoration: none;
+             width: 100%;
+             height: 3em;
+         }
+         textarea {
+             padding: 0.75em 1em;
+             margin-top: 1em;
+             margin-left: 3.8em !important;
+         }
+         input[type="text1"],
+         input[type="password"],
+         input[type="email"],
+         select,
+         textarea {
+             width: 100% !important;
+         }
+         .select-wrapper:before {
+             width: 0.75em !important;
+         }
+         .actions {
+             margin-left: 193px !important;
+         }
+         .actions .h2t {
+             font-size: 44px !important;
+             margin-left: 42px !important;
+         }
+         .actions .h2f {
+             margin-left: 30px !important;
+         }
+         input[type="checkbox"]+label,
+         input[type="radio"]+label {
+             padding-left: 2.5em !important;
+             margin-left: 9em !important;
+         }
+         input[type="submit"].special,
+         input[type="reset"].special,
+         input[type="button"].special,
+         .button.special {
+             margin-left: -5px !important;
+             width: 230px !important;
+         }
+     }
+     /*=================================================
+     = Móvil Horizontal (SM revisamos en 576px)        =
+     ==================================================*/
+     
+     @media (max-width:767px) and (min-width:576px) {
+         header {
+             background: rgba(0, 0, 0, .9);
+         }
+         .ulPerfil {
+             margin-bottom: 0px;
+             margin-left: -3px;
+             padding-top: 2px;
+         }
+         .nombrelogo .h2I {
+             font-family: 'Times New Roman', Times, serif;
+             margin-left: 106px;
+             margin-top: 0px;
+             font-size: 50px;
+         }
+         .h2P {
+             font-family: 'Times New Roman', Times, serif;
+             margin-top: -54px;
+             margin-left: 126px;
+             font-size: 41px;
+         }
+         /* Style the navigation menu */
+         .nav {
+             position: relative;
+             background: url(../img/bg.jpg);
+             padding-bottom: 15px;
+         }
+         /* Hide the links inside the navigation menu (except for logo/home) */
+         .nav #myLinks {
+             display: none;
+             padding-top: 18px;
+         }
+         /* Style navigation menu links */
+         .nav a {
+             color: #629DD1;
+             padding: 8px 26px;
+             text-decoration: none;
+             font-size: 22px;
+             display: block;
+         }
+         /* Add a grey background color on mouse-over */
+         .nav a:hover {
+             background-color: #ddd;
+             color: #629DD1;
+         }
+         .input-group {
+             width: 100%;
+         }
+         .fa-bars {
+             font-size: 25px;
+             color: #FCACAC;
+             padding-top: 10px;
+             margin-left: -33px;
+         }
+         .fa-search {
+             font-size: 15px;
+             color: #FCACAC;
+             margin-right: 2px;
+             padding-top: 2px;
+             cursor: pointer;
+         }
+         .busca {
+             margin-top: 20px;
+         }
+         .fade-slider .b1 {
+             margin-top: 70px;
+             height: 170px;
+         }
+         .fade-slider .b2 {
+             margin-top: 70px;
+             height: 170px;
+         }
+         .fade-slider .b3 {
+             margin-top: 70px;
+             height: 170px;
+         }
+         .fade-slider .b4 {
+             margin-top: 70px;
+             height: 170px;
+         }
+         .fade-slider .b5 {
+             height: 170px;
+         }
+         .fade-slider .b6 {
+             height: 185px;
+         }
+         .fade-slider .b7 {
+             height: 225px;
+         }
+         .textoBanner h1 {
+             font-family: 'Times New Roman', Times, serif;
+             font-size: 43px;
+         }
+         .textoBanner h5 {
+             font-family: 'Times New Roman', Times, serif;
+             line-height: 20px;
+             font-weight: 100;
+             font-size: 20px;
+             margin-top: 35px;
+         }
+         /*PERFIL*/
+         .imgBannerP {
+             margin-left: 209px;
+             padding-top: 72px;
+             width: 25%;
+         }
+         /*GRID*/
+         .grid {
+             padding-top: 0px;
+         }
+         .grid .boxcol {
+             margin-left: 40px;
+             padding-top: 30px;
+         }
+         .grid .column1 .box1 {
+             width: 80%;
+         }
+         .grid .column2 .box2 {
+             width: 86%;
+         }
+         .boxBanner {
+             margin-left: 24.3em;
+             z-index: 1;
+         }
+         .iconBann {
+             font-size: 50px;
+             color: #FCACAC;
+             margin-left: 30px;
+         }
+         .redesMovil {
+             left: 8.6%;
+         }
+         .redesMovil ul {
+             list-style: none;
+             margin-left: -10px;
+             margin-top: 10px;
+         }
+         .redesMovil .ulCategoria {
+             list-style: none;
+             margin-left: 123px;
+         }
+         .container-anuncios {
+             width: 88.5%;
+             margin-left: 6.5%;
+             margin-top: 30px;
+             padding-bottom: 25px;
+         }
+         .breadcrumb {
+             margin-top: -30px;
+         }
+         .breadcrumb-item+.breadcrumb-item::before {
+             width: 48px;
+             background-size: contain;
+             color: #FCACAC;
+             content: '>';
+             font-size: 50px;
+             margin-top: -25px;
+         }
+         .imgn {
+             margin-left: 22px;
+             height: 400px;
+         }
+         .textoAnuncio {
+             font-size: 19px;
+             padding-top: 15px;
+             color: #010a12;
+         }
+         .fecha {
+             position: absolute;
+             right: 10px;
+             top: 5px;
+             font-size: 17px;
+         }
+         .leerMas {
+             font-size: 20px;
+             margin-top: 5px;
+         }
+         .h4 {
+             font-size: 20px;
+             margin-left: 10px;
+             color: #1475E0;
+         }
+         hr {
+             margin-left: 0px;
+             width: 100%;
+         }
+         .bpm {
+             background: url(../img/bg.jpg);
+         }
+         /* FORMULARIO */
+         .container-formulario {
+             margin-top: 7px !important;
+             background: url(../img/img03.jpg) !important;
+         }
+         input[type="text1"],
+         input[type="password"],
+         input[type="email"],
+         select {
+             height: 2.75em;
+             margin-top: 1em;
+             margin-left: 2.3em !important;
+             appearance: none;
+             background: rgba(144, 144, 144, 0.075);
+             border-radius: 6px;
+             border: none;
+             border: solid 1px rgba(144, 144, 144, 0.25);
+             color: #629DD1;
+             display: block;
+             outline: 0;
+             padding: 0 0.5em;
+             text-decoration: none;
+             width: 100%;
+             height: 3em;
+         }
+         textarea {
+             padding: 0.75em 1em;
+             margin-top: 1em;
+             margin-left: 2.8em !important;
+         }
+         input[type="text1"],
+         input[type="password"],
+         input[type="email"],
+         select,
+         textarea {
+             width: 100% !important;
+         }
+         .select-wrapper:before {
+             width: 0.75em !important;
+         }
+         .actions {
+             margin-left: 193px !important;
+             margin-top: 30px !important;
+         }
+         .actions .h2t {
+             font-size: 42px !important;
+             margin-left: -44px !important;
+         }
+         .actions .h2f {
+             margin-left: -58px !important;
+         }
+         input[type="checkbox"]+label,
+         input[type="radio"]+label {
+             padding-left: 4.5em !important;
+             margin-left: 8.5em !important;
+         }
+         input[type="submit"].special,
+         input[type="reset"].special,
+         input[type="button"].special,
+         .button.special {
+             margin-left: -91px !important;
+             width: 230px !important;
+             margin-bottom: 30px;
+         }
+     }
+     /*=================================================
+      = Móvil Vertical ( revisamos en 320px) =
+     ==================================================*/
+     
+     @media (max-width:575px) {
+         .container-fluid {
+             width: 117% !important;
+         }
+         .ulPerfil {
+             margin-bottom: -9px;
+             margin-left: -15px;
+             padding-top: 0px;
+         }
+         header .nombrelogo {
+             color: #FCACAC;
+         }
+         header .nombrelogo .h2N {
+             padding-top: 5px;
+         }
+         .h2P {
+             font-family: 'Times New Roman', Times, serif;
+             margin-top: -50px;
+             margin-left: 28px;
+         }
+         .h2I {
+             font-family: 'Times New Roman', Times, serif;
+             margin-top: 14px;
+             margin-left: 32px;
+         }
+         /* Style the navigation menu */
+         .nav {
+             position: relative;
+             background: url(../img/bg.jpg);
+             padding-bottom: 20px;
+         }
+         /* Hide the links inside the navigation menu (except for logo/home) */
+         .nav #myLinks {
+             display: none;
+             padding-top: 18px;
+         }
+         /* Style navigation menu links */
+         .nav a {
+             color: #629DD1;
+             padding: 5px 16px;
+             text-decoration: none;
+             font-size: 22px;
+             display: block;
+         }
+         /* Add a grey background color on mouse-over */
+         .nav a:hover {
+             background-color: #ddd;
+             color: #629DD1;
+         }
+         .input-group {
+             width: 100%;
+         }
+         .fa-bars {
+             font-size: 25px;
+             color: #FCACAC;
+             padding-top: 12px;
+             margin-left: -74px;
+         }
+         .fa-search {
+             font-size: 12px;
+             color: #FCACAC;
+             margin-right: 2px;
+             cursor: pointer;
+         }
+         .fade-slider .b1 {
+             height: 135px;
+         }
+         .fade-slider .b2 {
+             height: 135px;
+         }
+         .fade-slider .b3 {
+             height: 135px;
+         }
+         .fade-slider .b4 {
+             height: 135px;
+         }
+         .fade-slider .b5 {
+             height: 135px;
+         }
+         /* Banner categorias */
+         .fade-slider .b6 {
+             height: 135px;
+         }
+         .fade-slider .b7 {
+             height: 215px;
+         }
+         .textoBanner h1 {
+             font-family: 'Times New Roman', Times, serif;
+             font-size: 23px;
+         }
+         .textoBanner h5 {
+             font-family: 'Times New Roman', Times, serif;
+             line-height: 20px;
+             font-weight: 100;
+             font-size: 15px;
+             margin-top: 35px;
+         }
+         /*PERFIL*/
+         .imgBannerP {
+             margin-left: 92px;
+             padding-top: 65px;
+             width: 43%;
+         }
+         .grid {
+             padding-top: 2px;
+             height: 597px;
+         }
+         .grid .boxcol {
+             margin-left: 7px;
+         }
+         .grid .column1 .box1 {
+             width: 94%;
+         }
+         .grid .column2 .box2 {
+             width: 94%;
+             margin-left: 4px;
+         }
+         .grid section p {
+             font-size: 19px;
+             padding-top: 7px;
+         }
+         .redesMovil {
+             left: 15.5%;
+         }
+         .redesMovil ul {
+             margin-left: -3px;
+             list-style: none;
+             margin-top: 10px;
+         }
+         .redesMovil i {
+             font-size: 30px;
+             margin-left: 12.1px;
+         }
+         .container-anuncios {
+             width: 100%;
+             margin-left: 0%;
+             margin-top: 4px;
+             padding-bottom: 25px;
+         }
+         .imgn {
+             margin-left: 24px;
+             height: 270px;
+         }
+         .textoAnuncio {
+             font-size: 19px;
+             padding-top: 15px;
+             color: #010a12;
+             padding-left: 24px;
+         }
+         .fecha {
+             position: absolute;
+             right: 5px;
+             top: 20px;
+             font-size: 15px;
+             color: #FCACAC;
+         }
+         .h4 {
+             font-size: 22px;
+             padding-left: 20px;
+             color: #1475E0;
+         }
+         hr {
+             margin-left: 24px;
+             width: 100%;
+         }
+         .hr1 {
+             margin-left: -1px;
+             width: 100%;
+         }
+         .leerMas {
+             font-size: 20px;
+             margin-top: 0px;
+         }
+         .bpm {
+             background: url(../img/bg.jpg);
+         }
+         /* LOGUIN */
+         .container-loguin {
+             width: 100%;
+             margin-top: 73px;
+             padding-bottom: 15em;
+             background: url(../img/img03.jpg);
+         }
+         .actions .h2l {
+             font-size: 3em;
+             margin-left: 495px;
+             display: inline-block;
+             font-family: 'Times New Roman', Times, serif;
+         }
+         input[type="text2"],
+         input[type="password"] {
+             margin-left: 1.4em !important;
+             border-radius: 5px;
+             border: 1px solid #ccc;
+             height: 2.75em;
+             margin-top: 2em;
+             margin-bottom: 1em;
+             font-size: 19.3px;
+             font-family: 'Times New Roman', Times, serif;
+         }
+         input[type="text2"],
+         input[type="password"],
+         input[type="email"],
+         select,
+         textarea {
+             -moz-appearance: none;
+             -webkit-appearance: none;
+             -o-appearance: none;
+             -ms-appearance: none;
+             appearance: none;
+             background: rgba(43, 42, 42, 0.295);
+             border-radius: 6px;
+             border: none;
+             border: solid 1px rgba(144, 144, 144, 0.25);
+             color: #023c6e;
+             display: block;
+             outline: 0;
+             padding: 0 0.8em;
+             text-decoration: none;
+             width: 100% !important;
+             height: 3em;
+         }
+         /* LOGUIN */
+         .actions .h2l {
+             margin-left: -100px !important;
+         }
+         .container-loguin {
+             margin-top: 67px !important;
+             padding-bottom: 30em !important;
+             background: url(../img/img03.jpg);
+         }
+         /* FORMULARIO */
+         .container-formulario {
+             margin-top: 1px !important;
+             width: 117% !important;
+         }
+         .form {
+             width: 95% !important;
+             margin: 0em auto;
+         }
+         input[type="text1"],
+         input[type="password"],
+         input[type="email"],
+         select {
+             height: 2.75em;
+             margin-top: 1em;
+             margin-left: 1.5em !important;
+             appearance: none;
+             background: rgba(144, 144, 144, 0.085);
+             border-radius: 6px;
+             border: none;
+             border: solid 1px rgba(144, 144, 144, 0.25);
+             color: #629DD1;
+             display: block;
+             outline: 0;
+             padding: 0 0.5em;
+             text-decoration: none;
+             width: 100%;
+             height: 3em;
+         }
+         .select-wrapper:before {
+             line-height: 3.60em !important;
+             width: 0.75em !important;
+         }
+         textarea {
+             padding: 0.75em 1em;
+             margin-top: 1em;
+             margin-left: 1.8em !important;
+         }
+         input[type="text1"],
+         input[type="password"],
+         input[type="email"],
+         select,
+         textarea {
+             width: 100% !important;
+         }
+         .actions {
+             margin-left: 193px !important;
+             margin-top: 30px !important;
+         }
+         .actions .h2t {
+             font-size: 44px !important;
+             margin-left: -146px !important;
+             margin-top: 0px !important;
+         }
+         .actions .h2f {
+             margin-left: -154px !important;
+         }
+         input[type="checkbox"]+label,
+         input[type="radio"]+label {
+             padding-left: -0.5em !important;
+             margin-left: 1.4em !important;
+         }
+         input[type="submit"].special,
+         input[type="reset"].special,
+         input[type="button"].special,
+         .button.special {
+             margin-left: -163px !important;
+             width: 198px !important;
+             margin-bottom: 3px;
+         }
+     }
+     /*=================================================
+     =                    LOGUIN                       =
+     ==================================================*/
+     
+     .container-loguin {
+         width: 100%;
+         margin-top: 73px;
+         padding-bottom: 15em;
+         background: url(../img/img03.jpg);
+     }
+     
+     .actions .h2l {
+         font-size: 3em;
+         margin-left: 495px;
+         display: inline-block;
+         font-family: 'Times New Roman', Times, serif;
+     }
+     
+     input[type="text2"],
+     input[type="password"] {
+         margin-left: 17em;
+         border-radius: 5px;
+         border: 1px solid #ccc;
+         height: 2.75em;
+         margin-top: 2em;
+         margin-bottom: 1em;
+         font-size: 19.3px;
+         font-family: 'Times New Roman', Times, serif;
+     }
+     
+     input[type="text2"],
+     input[type="password"],
+     input[type="email"],
+     select,
+     textarea {
+         -moz-appearance: none;
+         -webkit-appearance: none;
+         -o-appearance: none;
+         -ms-appearance: none;
+         appearance: none;
+         background: rgba(43, 42, 42, 0.295);
+         border-radius: 6px;
+         border: none;
+         border: solid 1px rgba(144, 144, 144, 0.25);
+         color: #023c6e;
+         display: block;
+         outline: 0;
+         padding: 0 0.8em;
+         text-decoration: none;
+         width: 100% !important;
+         height: 3em;
+     }
+     /*=================================================
+     =            FORMULARIO ANUNCIO                   =
+     ==================================================*/
+     
+     .container-formulario {
+         padding-top: 40px;
+         padding-bottom: 100px;
+         background: url(../img/img03.jpg);
+     }
+     
+     .h2t {
+         font-size: 4em;
+         margin-left: 344px;
+         display: inline-block;
+         font-family: 'Times New Roman', Times, serif;
+     }
+     
+     .actions .h2t {
+         font-size: 4em;
+         margin-left: 344px;
+         display: inline-block;
+         font-family: 'Times New Roman', Times, serif;
+     }
+     
+     .actions .h2f {
+         font-size: 3em;
+         margin-left: 37px;
+         margin-bottom: 15px;
+         display: inline-block;
+         font-family: 'Times New Roman', Times, serif;
+     }
+     
+     .actions {
+         margin-top: 80px;
+         margin-bottom: 30px;
+         color: #FCACAC;
+         display: inline-block;
+         list-style: none;
+         margin-left: 408px;
+     }
+     
+     .form {
+         width: 100%;
+         margin: 0em auto;
+     }
+     
+     label {
+         color: #292c2e;
+         display: block;
+         font-size: 0.9em;
+         font-weight: 500;
+         margin: 0 0 1.5em 0;
+         width: 280px;
+         padding-left: 15px;
+     }
+     
+     input[type="text1"],
+     input[type="password"],
+     input[type="email"],
+     select,
+     textarea {
+         -moz-appearance: none;
+         -webkit-appearance: none;
+         -o-appearance: none;
+         -ms-appearance: none;
+         appearance: none;
+         background: rgba(43, 42, 42, 0.295);
+         border-radius: 6px;
+         border: none;
+         border: solid 1px rgba(144, 144, 144, 0.25);
+         color: #023c6e;
+         display: block;
+         outline: 0;
+         padding: 0 0.5em;
+         text-decoration: none;
+         width: 78%;
+         height: 9em;
+     }
+     
+     .select-wrapper {
+         text-decoration: none;
+         display: block;
+         position: relative;
+     }
+     
+     input[type="text1"],
+     input[type="password"],
+     input[type="email"],
+     select {
+         height: 2.75em;
+         margin-top: 1em;
+         margin-left: 10.3em;
+         font-size: 19.3px;
+         font-family: 'Times New Roman', Times, serif;
+     }
+     
+     textarea {
+         padding: 0.75em 1em;
+         margin-top: 1em;
+         margin-left: 12.3em;
+         font-family: 'Times New Roman', Times, serif;
+     }
+     
+     .select-wrapper:before {
+         color: #023c6e;
+         display: block;
+         height: 2.75em;
+         line-height: 3.75em;
+         pointer-events: none;
+         position: absolute;
+         right: 0;
+         text-align: center;
+         top: 0;
+         width: 7.75em;
+     }
+     
+     .select-wrapper:before {
+         content: "";
+         -moz-osx-font-smoothing: grayscale;
+         -webkit-font-smoothing: antialiased;
+         font-family: FontAwesome;
+         font-style: normal;
+         font-weight: normal;
+         text-transform: none !important;
+     }
+     
+     .checkBox {
+         list-style: none;
+         float: left;
+     }
+     
+     input[type="checkbox"],
+     input[type="radio"] {
+         -moz-appearance: none;
+         -webkit-appearance: none;
+         -o-appearance: none;
+         -ms-appearance: none;
+         appearance: none;
+         display: block;
+         float: left;
+         margin-right: -1em;
+         opacity: 0;
+         width: 1em;
+         z-index: -1;
+     }
+     
+     input[type="checkbox"]+label,
+     input[type="radio"]+label {
+         text-decoration: none;
+         color: #023c6e;
+         cursor: pointer;
+         display: inline-block;
+         font-size: 16.5px;
+         font-weight: 0.60;
+         padding-left: 99.2px;
+         position: relative;
+         margin-left: 1.2;
+         font-family: 'Times New Roman', Times, serif;
+     }
+     
+     input[type="checkbox"]+label:before,
+     input[type="radio"]+label:before {
+         -moz-osx-font-smoothing: grayscale;
+         -webkit-font-smoothing: antialiased;
+         font-family: FontAwesome;
+         font-style: normal;
+         font-weight: normal;
+         text-transform: none !important;
+     }
+     
+     input[type="checkbox"]+label:before,
+     input[type="radio"]+label:before {
+         background: rgba(0, 0, 0, 0.3);
+         border-radius: 6px;
+         border: solid 1px rgba(144, 144, 144, 0.25);
+         content: '';
+         display: inline-block;
+         height: 1.65em;
+         left: -4em;
+         line-height: 1.58125em;
+         position: relative;
+         text-align: right 1.5em;
+         top: 0;
+         width: 1.65em;
+     }
+     
+     input[type="checkbox"]:checked+label:before,
+     input[type="radio"]:checked+label:before {
+         background: #629DD1;
+         border-color: #192024;
+         color: #ffffff;
+         content: '\f00c';
+     }
+     
+     input[type="checkbox"]:focus+label:before,
+     input[type="radio"]:focus+label:before {
+         border-color: #023c6e;
+         box-shadow: 0 0 0 1px #629DD1;
+     }
+     
+     input[type="submit"].special,
+     input[type="reset"].special,
+     input[type="button"].special,
+     .button.special {
+         background-color: #629DD1;
+         color: #ffffff !important;
+         width: 290px;
+         height: 70px;
+         font-size: 30px;
+         border-color: #629DD1;
+         margin-left: -25px;
+         border-radius: 5px;
+         font-family: 'Times New Roman', Times, serif;
+     }
+     
+      ::-webkit-input-placeholder {
+         color: #023c6e !important;
+         opacity: 1.0;
+     }

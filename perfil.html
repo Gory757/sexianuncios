@@ -1,0 +1,540 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sex{i}Anuncios</title>
+
+    <link rel="icon" href="img/imgsexd.png">
+
+    <!--========================================================================
+                                PLUGINS DE CSS
+======================================================================== -->
+
+    <!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+
+    <!-- JdSlider -->
+    <link rel="stylesheet" type="text/css" href="css/plugins/jquery.jdSlider.css">
+
+
+    <!--=========================================================================
+                                    PLUGINS DE JS
+    ========================================================================= -->
+
+    <!-- jQuery library -->
+    <!--<script src="js/jquery.slim.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+
+    <!-- Popper JS -->
+    <!--<script src="js/popper.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+
+    <!-- Latest compiled JavaScript -->
+    <!--<script src="js/bootstrap.bundle.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+    <!-- JdSlider -->
+    <script src="js/plugins/jquery.jdSlider-latest.js"></script>
+
+    <!-- Scrolorama -->
+    <script src="js/plugins/jquery.superscrollorama.js"></script>
+    <script src="js/plugins/TweenMax.min.js"></script>
+
+    <!-- Pagination -->
+    <!-- https://josecebe.github.io/twbs-pagination -->
+    <script src="js/plugins/pagination.min.js"></script>
+
+</head>
+
+<body>
+    <!--============================================================================
+                                      PRELOAD
+    =============================================================================-->
+
+    <div id="preload">
+
+        <div id="porcentajeCarga">0%</div>
+
+        <di id="lineaCarga">
+
+            <di id="rellenoCarga"></di>
+
+        </di>
+
+        <di id="estadoCarga"></di>
+
+    </div>
+    <!--============================================================================
+                                      CABECERA
+    =============================================================================-->
+
+    <header class="container-fluid ">
+
+        <div class="">
+
+            <div class="row">
+
+                <div class="col-10 col-sm-11 col-md-3  col-lg-3 pt-lg-1 col-xl-4 pt-xl-0">
+
+                    <ul class="col-1 ulPerfil">
+                        <li>
+                            <a href="mujeres.html" class="fas fa-angle-left"></a>
+                        </li>
+
+                        <li class=" d-lg-none d-md-none">
+
+                            <h2 class="h2P">Sex{i}Anuncios</h2>
+
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!--============================================================================
+                                              BARRA  DE NAVEGACION
+                =============================================================================-->
+
+                <div class="d-none d-md-block col-md-8 col-lg-8 col-xl-7  pt-xl-2 nav  ">
+
+                    <nav class="navbar navbar-expand-sm ml-5 text-md-right d-flex justify-content-end mb-1">
+
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item mr-2 lead">
+
+                            </li>
+
+                            <li class="nav-item mr-2 lead nombrelogo">
+                                <a href="index.html">
+                                    <h2 class="h2Perfil">Sex{i}Anuncios</h2>
+                                </a>
+                            </li>
+
+                            <li class="nav-item mr-2 lead">
+
+                            </li>
+
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+                <!-- ===========================================================================
+                                                  BUSCADOR Y MENÚ
+                 =============================================================================-->
+
+                <div class="col-2 col-sm-1 col-md-1 col-lg-1 pt-2 col-xl-1 pt-xl-3 mt-1 text-md-center d-flex justify-content-end ">
+
+                    <!-- BUSCADOR -->
+                    <div class="d-none d-md-block pr-5 pr-md-4 pr-lg-5 ">
+
+                        <i class="fas fa-search " data-toggle="collapse" data-target="#buscador"></i>
+
+                    </div>
+
+                    <!-- BOTON MENÚ -->
+                    <div class="d-xl-none d-lg-none d-md-none mb-3 mb-md-0 pr-2 pr-lg-3 " onclick="myFunction()">
+
+                        <i class="fas fa-bars lead"></i>
+
+                    </div>
+
+                </div>
+
+                <!-- ENTRADA DEL BUSCADOR -->
+                <div id="buscador" class="collapse col-12">
+
+                    <div class="input-group float-right ">
+
+                        <input type="text" class="form-control" placeholder="Buscar">
+
+                        <div class="input-group-append">
+
+                            <span class="input-group-text">
+
+                                <i class="fa fa-search n2"></i>
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- ===========================================================================
+                                            MENÚ DE NAVEGACION MÓVIL
+                =============================================================================-->
+
+                <div class="d-xl-none d-lg-none  d-md-none nav">
+
+                    <div id="myLinks">
+
+                        <a href="mujeres.html" target="_blank">Mujeres</a>
+
+                        <a href="hombres.html" target="_blank">Hombres</a>
+
+                        <a href="lesbianas.html" target="_blank">Lesbianas</a>
+
+                        <a href="gays.html" target="_blank">Gays</a>
+
+                        <a href="masajes.html" target="_blank">Masajes</a>
+
+                        <a href="agencia.html" target="_blank">Agencia</a>
+
+                        <a href="sado.html" target="_blank">Sado</a>
+
+                        <a href="scorts.html" target="_blank">Scorts</a>
+
+                        <a href="trans.html" target="_blank">Transexuales</a>
+
+                        <a href="habitaciones.html" target="_blank">Habitaciones</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ===========================================================================
+                                        BANNER 
+    =============================================================================-->
+
+    <section class="jd-slider fade-slider ">
+
+        <div class="slide-inner">
+
+            <ul class="slide-area">
+
+                <li>
+
+                    <div class="imgBannerP">
+
+                        <img src="img/d9.jpg" alt="nolbertgra" class="imgnp"></img>
+
+                    </div>
+
+                    <img src="img/ebano1.jpg" alt="sex{i}anuncios" class="img-fluid b7">
+
+                    <div class="d-none d-md-block boxBannerp">
+
+                        <a href="" class="iconBannP ">
+
+                            <i class="fas fa-comment"></i>
+
+                        </a>
+
+                        <a href="" class=" iconBannP ">
+
+                            <i class="fas fa-heart"></i>
+
+                        </a>
+
+                        <a href="" class=" iconBannP ">
+
+                            <i class="fas fa-envelope"></i>
+
+                        </a>
+
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="controller  d-none">
+
+            <a class="auto" href="#">
+
+                <i class="fas fa-play fa-xs"></i>
+
+                <i class="fas fa-pause fa-xs"></i>
+
+            </a>
+
+            <div class="indicate-area"></div>
+
+        </div>
+
+    </section>
+
+    <!-- ===========================================================================
+                                   CONTENIDO  DE ANUNCIOS
+    =============================================================================-->
+
+    <div class="container-fluid contPerfil pt-4  pb-4">
+
+        <div class="container border">
+
+            <div class="photoPerfil bg-dark">
+
+                <div class="row border">
+
+                    <img src="img/imgBy1.jpg " class="imgPer ">
+
+                    <img src="img/imgBy2.jpg " class="imgPer ">
+
+                    <img src="img/imgBy3.jpg " class="imgPer ">
+
+                    <img src="img/imgBy4.jpg " class="imgPer ">
+
+                    <img src="img/imgBy5.jpg " class="imgPer ">
+
+                </div>
+
+                <div class="row">
+
+                    <img src="img/imgBy6.jpg " class="imgPer ">
+
+                    <img src="img/imgBy7.jpg " class="imgPer ">
+
+                    <img src="img/imgBy8.jpg " class="imgPer ">
+
+                    <img src="img/imgBy9.jpg " class="imgPer ">
+
+                    <img src="img/imgBy10.jpg " class="imgPer ">
+
+                </div>
+
+            </div>
+
+            <div class="d-flex flex-column border anuncioPerfil">
+
+                <div class="">
+
+                    <hr class="hr1" [href]="#" style="border: 1px solid #FCACAC">
+
+
+                    <h2 class="h2Perfil">Anuncio</h2>
+
+                    <p class="textAnuncioPerfil ">L'imagination peut rendre les plaisirs secrets, intimes , encore plus savoureux. J'ai très envie de vous guider à travers un voyage où tous vos sens seront titillés, une odysée sensorielle qui je l'espère sera en finalité délicieusement
+                        exaltante. Telle une geisha des temps modernes, je vous dévêtirai pour vous mener à une douche bienfaisante, l'eau coulant sur votre corps étant les prémices de sensations troublantes qui parcourront votre corps très bientôt. Le
+                        se glissent dans vos contrées les plus intimes. Si vos choix sont audacieux, vous pourrez à votre tour me découvrir avec vos doigts, vos mains , .....je laisse votre imagination compléter cette découverte.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <hr class="hr1" [href]="#" style="border: 1px solid #FCACAC">
+
+            <div class="d-flex flex-column servicios">
+
+                <div class="">
+
+                    <h2 class="h2Perfil ">Servicios</h2>
+
+                    <ul>
+
+                        <li class="box">Felación Protegida</li>
+
+                        <li class="box">Beso </li>
+
+                        <li class="box">Viaje</li>
+
+                        <li class="box">juguetes Sexuales</li>
+
+                        <li class="box">Masaje Tantrico</li>
+
+                        <li class="box">BDSM</li>
+
+                        <li class="box">69</li>
+
+                        <li class="box">Masaje con Aceite</li>
+
+                        <li class="box">Masaje Erótico</li>
+
+                        <li class="box">Fetichiso</li>
+
+                        <li class="box">Novia</li>
+
+                        <li class="box">Masaje Cuatro Manos</li>
+
+                        <li class="box">Masaje Naturista</li>
+
+                        <li class="box">Restaurante</li>
+
+                        <li class="box">Striptís</li>
+
+                        <li class="box">Masaje Prostático</li>
+
+                        <li class="box">Cunnilingus</li>
+
+                        <li class="box">Lesbo Show</li>
+
+                        <li class="box">Eyaculación Corporal</li>
+
+                        <li class="box">Consolador Con Correa</li>
+
+                        <li class="box">Juego de Rol</li>
+
+                        <li class="box">Baño de Oro</li>
+
+                        <li class="box">Felació Natural</li>
+
+                    </ul>
+
+                    <hr class="hr1" [href]="#" style="border: 1px solid #FCACAC">
+
+                </div>
+
+                <div class="d-flex flex-column horario ">
+
+                    <div class="">
+
+                        <h2 class="h2Perfil ">Horarios</h2>
+
+                        <ul>
+
+                            <li class="box ">Lunes :</li>
+
+                            <li class="box ">Martes :</li>
+
+                            <li class="box ">Miércoles :</li>
+
+                            <li class="box ">Jueves :</li>
+
+                            <li class="box ">Viernes :</li>
+
+                            <li class="box ">Sábado :</li>
+
+                            <li class="box ">Domingo :</li>
+
+                        </ul>
+
+                        <hr class="hr1" [href]="#" style="border: 1px solid #FCACAC">
+
+                        <h2 class="h2Perfil ">Tarifas</h2>
+
+                        <ul>
+
+                            <li class="box ">30 Minutos :</li>
+
+                            <li class="box ">1 Hora :</li>
+
+                            <li class="box ">1 Noche :</li>
+
+                            <li class="box ">1 Fin de Semana :</li>
+
+                        </ul>
+
+                        <hr class="hr1" v [href]="#" style="border: 1px solid #FCACAC">
+
+                        <h2 class="h2Perfil ">Idiomas</h2>
+
+                        <ul>
+
+                            <li class="box ">Idioma:</li>
+
+                            <li class="box ">Idioma :</li>
+
+                            <li class="box ">Idioma :</li>
+
+                            <li class="box ">Idioma :</li>
+
+                            <li class="box ">Idioma :</li>
+
+                            <li class="box ">Idioma :</li>
+
+                        </ul>
+
+                        <hr class="hr1" [href]="#" style="border: 1px solid #FCACAC">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ===========================================================================
+                            REDES SOCIALES PARA MÓVIL
+    =============================================================================-->
+
+    <div class=" d-xl-none d-lg-none d-md-none redes redesMovil p-0   pt-2 ">
+
+        <ul class="d-flex justify-content mt-2 ulCategoria">
+
+            <li>
+
+                <a href="">
+
+                    <i class="fas fa-user lead rounded-circle "></i>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="">
+
+                    <i class="fas fa-images lead rounded-circle "></i>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="">
+
+                    <i class="fas fa-file-signature lead rounded-circle "></i>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="">
+
+                    <i class="fas fa-sliders-h lead rounded-circle"></i>
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="">
+
+                    <i class="fas fa-map-marker-alt lead rounded-circle "></i>
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+
+    <script src="js/script.js "></script>
+
+</body>
+
+</html>
