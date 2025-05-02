@@ -34,8 +34,9 @@
          margin-right: 18.5%;
      }
      
-     .h2I {
+     .a .nombrelogo .h2I {
          margin-top: 19px;
+         padding-left:  1000px !important;
      }
      
      .ulPerfil {
@@ -928,7 +929,7 @@
              margin-left: -3px;
              padding-top: 2px;
          }
-         .nombrelogo .h2I {
+          .nombrelogo .h2I {
              font-family: 'Times New Roman', Times, serif;
              margin-left: 106px;
              margin-top: 0px;
